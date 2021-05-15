@@ -1069,10 +1069,22 @@ h5 > a {
 }
 
 @media (max-width: 760px) {
+  .mensagem {
+    padding: 30px 60px;
+  }
+  h3 {
+    margin-top: 20px;
+  }
   .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    padding: 25px;
   }
 }
 
