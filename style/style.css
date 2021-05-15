@@ -1068,6 +1068,28 @@ h5 > a {
   grid-gap: 1em;
 }
 
+@media (max-width: 760px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    padding: 25px;
+  }
+}
+
 .btn {
   border: 3px solid #008000;
   border-radius: 10px;
